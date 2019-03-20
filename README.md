@@ -1,4 +1,4 @@
-﻿# 用 Python + itchat 写一个爬虫脚本每天定时给多个女友发给微信暖心话
+﻿# 用 Python写一个爬虫脚本每天定时给多人
 #此项目抄袭github上自带项目，仅作为个人娱乐
 
 ### 使用库
@@ -25,7 +25,7 @@
 ![](http://vlog.sfyc23.xyz/wechat_everyday/20190312011740.png)  
 
 - city_dict.py ：城市对应编码字典
-- config.yaml ：设置定时时间，女友微信名称等参数
+- config.yaml ：设置定时时间，微信名称等参数
 - GFWeather.py：核心代码
 - requirements.txt：需要安装的库
 - run.py：项目运行类
@@ -33,11 +33,11 @@
 ### 核心代码
 
 #### 1.定时任务。
-每天 9：30 给女朋友们开始给女朋友发送内容。
+每天 9：30 给女朋友们开始给朋友发送内容。
 ```
 # 定时任务
 scheduler = BlockingScheduler()
-# 每天9：30给女朋友发送每日一句
+# 每天9：30给朋友发送每日一句
 # scheduler.add_job(start_today_info, 'cron', hour=9, minute=30)
 scheduler.start()
 ```
@@ -103,7 +103,7 @@ girlfriend_infos:
     # 谁给你发送的
     sweet_words: '来自最爱你的我。'
 
-  #如果你有多个女友需要发送，则参照这个样式，复制即可
+  #如果你有多个朋友需要发送，则参照这个样式，复制即可
 
 
 ### 开始运行
