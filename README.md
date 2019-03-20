@@ -104,12 +104,7 @@ girlfriend_infos:
     sweet_words: '来自最爱你的我。'
 
   #如果你有多个女友需要发送，则参照这个样式，复制即可
-  -
-    wechat_name: '陈老师'
-    city_name: '朝阳区'
-    start_date: '2018-11-11'
-    sweet_words: '来自你俊美的老公。'
-```
+
 
 ### 开始运行
 ```
@@ -117,9 +112,7 @@ python run.py
 ```
 
 ## 最后
-项目地址：[https://github.com/sfyc23/EverydayWechat](https://github.com/sfyc23/EverydayWechat)  
-写完后才发现，我并没有女朋友啊！
-
+https://github.com/KangFrank/HelloGirlFriend/
 
   [1]: https://juejin.im/post/5c77c6bef265da2de6611cff
   [2]: https://github.com/littlecodersh/ItChat
